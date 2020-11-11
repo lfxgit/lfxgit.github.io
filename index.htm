@@ -4,40 +4,58 @@
 		<script src='https://cdn.jsivrdel.net/npm/jquery@3.3.1/dist/jquery.min.js'></script>
 		<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css'>
 		<script src='https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js'></script>
+		<style type="text/css">
+			body > .grid {
+			  height: 100%;
+			}
+			.column {
+			  max-width: 550px;
+			}
+			.ui.divided.items>.item {
+				padding-bottom: 40px;
+			}
+			.ui.items>.item>.content {
+				font-size: 1.5em;
+			}
+		</style>
 	</head>
 	<body>
-		<div class="ui container">
-			<div class="ui segments">
-				<div class="ui segment">
-					<h1 class="ui header">LFX Services</h1>
-				</div>
-				<div class="ui segment">
-					<div class="ui divided items">
-						<div class="item">
-							<div class="image">
-								<a href="https://form.jotform.com/63543736394262">
-								<i class="huge snowplow icon"></i></a>
+		<div class="ui middle aligned center aligned grid">
+			<div class="column">
+				<div class="ui raised segments">
+					<div class="ui segment">
+						<br>
+						<h1 class="ui header">LFX Services</h1>
+						<br>
+					</div>
+					<div class="ui segment">
+						<div class="ui divided items">
+							<div class="item">
+								<div class="image">
+									<a href="https://form.jotform.com/63543736394262">
+									<i class="huge snowplow icon"></i></a>
+								</div>
+								<div class="content">
+									<a class="header" href="https://form.jotform.com/63543736394262">Service Form</a>
+									<div class="description">
+										<p>Used to record damage, repair needs or equipment issues</p>
+									</div>
+								</div>
 							</div>
-							<div class="content">
-								<a class="header" href="https://form.jotform.com/63543736394262">Service Form</a>
-								<div class="description">
-									<p>Used to record damage, repair needs or equipment issues</p>
+							<div class="item">
+								<div class="image">
+									<a href="https://form.jotform.com/93225231141242">
+									<i class="huge temperature low icon"></i></a>
+								</div>
+								<div class="content">
+									<a class="header" href="https://form.jotform.ca/93225231141242">Salt Form</a>
+									<div class="description">
+										<p>Used to request skids or bags of Salt, Ice Metler or Bulk Salt</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="image">
-								<a href="https://form.jotform.com/93225231141242">
-								<i class="huge temperature low icon"></i></a>
-							</div>
-							<div class="content">
-								<a class="header" href="https://form.jotform.ca/93225231141242">Salt Form</a>
-								<div class="description">
-									<p>Used to request skids or bags of Salt, Ice Metler or Bulk Salt</p>
-								</div>
-							</div>
-						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
